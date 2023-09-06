@@ -10,6 +10,9 @@ body {
 
 .container {
    padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
 }
 
 span {
@@ -20,7 +23,7 @@ span {
    color: rgb(48, 23, 23);
 }
 
-button {
+.sumSub {
    font-size: 2rem;
    cursor: pointer;
    background-color: transparent;
